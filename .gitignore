@@ -1,0 +1,16 @@
+# Ignore system files
+.DS_Store
+.vscode/
+__pycache__/
+*.log
+*.swp
+
+# Ignore Mac system files
+*.icloud
+.Trashes
+.fseventsd
+.Spotlight-V100
+
+# Ignore Conda environments
+.env/
+.conda/
