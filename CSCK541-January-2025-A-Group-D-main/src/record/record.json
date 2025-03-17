@@ -1,0 +1,55 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "type": "airline",
+      "company_name": "Cathay Pacific"
+    },
+    {
+      "id": 1,
+      "type": "client",
+      "name": "Alan Chan",
+      "address_line_1": "Hong Kong",
+      "address_line_2": "Hong Kong 222",
+      "address_line_3": "",
+      "city": "",
+      "state": "",
+      "zip_code": "",
+      "country": "Hong Kong",
+      "phone_number": "91223363"
+    },
+    {
+      "id": 2,
+      "type": "airline",
+      "company_name": "ANA"
+    },
+    {
+      "id": 1,
+      "type": "flight",
+      "client_id": 1,
+      "airline_id": 1,
+      "date": "2025-03-15T19:04:00",
+      "start_city": "Hong Kong",
+      "end_city": "Tokyo"
+    },
+    {
+      "id": 2,
+      "type": "flight",
+      "client_id": 1,
+      "airline_id": 1,
+      "date": "2025-03-15T16:00:00",
+      "start_city": "Hong Kong",
+      "end_city": "Tokyo"
+    },
+    {
+      "id": 4,
+      "type": "flight",
+      "client_id": 1,
+      "airline_id": 1,
+      "date": "2025-03-12T12:00:00",
+      "start_city": "Los Angels",
+      "end_city": "Washington"
+    }
+  ],
+  "next_id": 1
+}
